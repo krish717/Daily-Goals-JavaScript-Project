@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(45, 45, 45); */
+}
+body{
+    background-color: rgb(45, 45, 45);
+}
+.container{
+    width: 80%;
+    margin: auto;
+    min-height: 100vh;
+    background-color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+input,textarea,button{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+    background-color: white;
+    outline: none ;
+    margin: 10px;
+}
+
+button{
+    background-color: violet;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: purple;
+    
+}
+
+
+.task{
+    background-color: rgb(247, 247, 247);
+    padding: 30px;
+    color: rgb(0, 0, 0.0.868);
+    display: flex;
+    align-items: center;
+    margin: 2vmax;
+}
+
+/*   */
+
+.task div{
+    width: 100%;
+}
+.task span{
+    color: rgba(0, 0, 0, 0.632);
+}
+
+
+.deletebtn{
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    cursor: pointer;
+}
+
+.deletebtn:hover{
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
